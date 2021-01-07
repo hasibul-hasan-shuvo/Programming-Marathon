@@ -1,4 +1,4 @@
-<center>  <h1>Mission CAPM</h1>
-This repository is created to complete the mission CAPM. 
-</br></br></br>
-<img src="https://raw.githubusercontent.com/Shuvo1260/shuvo1260/main/images/svg1.gif"/></center>
+<center>  <h1>Mission CAPM</h1></center>
+<center>This repository is created to complete the mission CAPM. </center>
+</br></br>
+<center><img src="https://raw.githubusercontent.com/Shuvo1260/shuvo1260/main/images/svg1.gif"/></center>
