@@ -1,8 +1,17 @@
+  
 /** Problem link: https://www.hackerrank.com/challenges/staircase/problem **/
 
-#include<cstdio>
+#include<iostream>
 
 int main()
 {
-	return 0;
+	int n;
+	std::cin >> n;
+	for(int x=1;x<=n;x++){
+		for(int y=1,c=n-x;y<=n;y++){
+			if( y<=c )std::cout << " ";
+			else std::cout << "#";
+		}
+		std::cout << "\n";
+	}
 }
