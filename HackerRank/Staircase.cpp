@@ -2,6 +2,7 @@
 
 #include<cstdio>
 
+void raihan();
 void sazol();
 
 int main()
@@ -25,3 +26,14 @@ void sazol() {
     }
 }
 
+void raihan(){
+	int n;
+	scanf("%d",&n);
+	for(int x=1;x<=n;x++){
+		for(int y=1;y<=n;y++){
+			if( y<=n-x )printf(" ");
+			else printf("#");
+		}
+		printf("\n");
+	}
+}
