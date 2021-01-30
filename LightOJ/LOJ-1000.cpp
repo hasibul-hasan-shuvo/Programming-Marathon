@@ -1,11 +1,14 @@
 /** Problem link: https://lightoj.com/problem/greetings-from-lightoj **/
 
-#include<cstdio>
+#include<bits/stdc++.h>
+using namespace std;
 
+void raj();
 void jayem();
 void raihan();
 int main()
 {
+	  raj();
     jayem();
     raihan();
     return 0;
@@ -31,4 +34,14 @@ void jayem()
         scanf("%d%d",&a,&b);
         printf("Case %d: %d\n",i,a+b);
     }
+}
+
+void raj(){
+	int t;
+  cin>>t;
+  for(int i=1;i<=t;i++){
+    int a,b;
+    cin>>a>>b;
+    cout<<"Case "<<i<<": "<<a+b<<endl;
+	}
 }

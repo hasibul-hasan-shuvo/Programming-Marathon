@@ -1,14 +1,18 @@
 /** Problem link: https://www.hackerrank.com/challenges/staircase/problem **/
 
-#include<cstdio>
+#include<bits/stdc++.h>
+using namespace std;
 
+void raj();
 void raihan();
 void sazol();
 
 int main()
 {
-    sazol();
-    return 0;
+	raj();
+  sazol();
+  raihan();
+  return 0;
 }
 
 void sazol() {
@@ -35,5 +39,17 @@ void raihan(){
 			else printf("#");
 		}
 		printf("\n");
+	}
+}
+
+void raj(){
+	int n;
+	cin>>n;
+	for(int i=0;i<n;i++){
+		for(int j=n-1;j>=0;j--){
+			if(i>=j)cout<<"#";
+			else cout<<" ";
+		}
+		cout<<endl;
 	}
 }
