@@ -1,9 +1,18 @@
 /** Problem link: https://lightoj.com/problem/greetings-from-lightoj **/
 
-#include <cstdio>
+#include<bits/stdc++.h>
+using namespace std;
+
+void showvike();
 
 int main()
 {
+	showvike();
+
+	return 0;
+}
+
+void showvike() {
 	int t;
 
 	while(scanf("%d", &t) == 1)
@@ -23,6 +32,4 @@ int main()
 			I++;
 		}
 	}
-
-	return 0;
 }
