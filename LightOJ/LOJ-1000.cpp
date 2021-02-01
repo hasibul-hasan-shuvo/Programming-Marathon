@@ -3,6 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void ove();
 void showvike();
 void raj();
 void jayem();
@@ -10,13 +11,24 @@ void raihan();
 
 int main()
 {
-	showvike();
+    ove();
+	  showvike();
 	  raj();
     jayem();
     raihan();
     return 0;
 }
 
+void ove()
+{
+    int t, a, b, i;
+    scanf("%d", &t);
+    for(i=1; i<=t; i++)
+    {
+        scanf("%d%d", &a, &b);
+        printf("Case %lld: %lld\n", i, a+b);
+    }
+}
 void raihan(){
     int n;
 	scanf("%d",&n);

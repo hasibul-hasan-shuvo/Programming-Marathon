@@ -1,8 +1,9 @@
 /** Problem link: https://www.hackerrank.com/challenges/staircase/problem **/
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
+void ove();
 void showvike();
 void raj();
 void raihan();
@@ -10,12 +11,30 @@ void sazol();
 
 int main()
 {
+  ove();
 	raj();
   sazol();
   raihan();
 	showvike();
   return 0;
 }
+
+
+
+void ove()
+{
+    int n, i, j;
+    scanf("%d", &n);
+    for(i=1; i<=n; i++)
+    {
+        for(j=1; j<=n-i; j++)
+            printf(" ");
+        for(j=1; j<=i; j++)
+            printf("#");
+        printf("\n");
+    }
+}
+
 void sazol() {
     int n;
     scanf("%d", &n);
