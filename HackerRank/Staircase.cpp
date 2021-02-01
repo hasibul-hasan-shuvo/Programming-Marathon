@@ -3,6 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void showvike();
 void raj();
 void raihan();
 void sazol();
@@ -12,9 +13,9 @@ int main()
 	raj();
   sazol();
   raihan();
+	showvike();
   return 0;
 }
-
 void sazol() {
     int n;
     scanf("%d", &n);
@@ -51,5 +52,21 @@ void raj(){
 			else cout<<" ";
 		}
 		cout<<endl;
-	}
+  }
+}
+
+void showvike() {
+	int n;
+
+	while(scanf("%d", &n) == 1)
+		for(int I = 0; I < n; I++)
+		{
+			for(int K = I; K < n - 1; K++)
+				printf(" ");
+
+			for(int K = 0; K <= I; K++)
+				printf("#");{
+
+			printf("\n");
+		}
 }
